@@ -32,9 +32,11 @@ public class ExchangeValue
 @GeneratedValue(strategy=GenerationType.AUTO)
 private long id;
 @Column(name="name") 
-
+@NotNull
+@Size(min=3,message="should be at least 3 characters")
 private String name ;
-
+@NotNull
+@Size(min=3,message="should be at least 3 characters")
 @Column(name="contactnumber")
 private String contactnumber;
 

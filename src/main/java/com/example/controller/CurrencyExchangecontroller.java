@@ -181,12 +181,12 @@ public String newregister(HttpServletRequest request) {
 	request.setAttribute("mode", "MODE_NEWREGISTER");
 	return "welcome";
 }
-@GetMapping(path="/all")
-public @ResponseBody Iterable<ExchangeValue> getAllUsers() {
+//@GetMapping(path="/all")
+//public @ResponseBody Iterable<ExchangeValue> getAllUsers() {
  //This returns a JSON or XML with the users
-return repository.findAll();
+//return repository.findAll();
 
-}
+//}
 
 //@RequestMapping(value="/show-users")
 //public String allrequest(HttpServletRequest request) {
