@@ -94,16 +94,10 @@ public String register(HttpServletRequest request){
 	return "welcome";
 }
 @PostMapping(value="/save-user")
-public String saverequest(@Valid @ModelAttribute ExchangeValue exchangevalue,Errors errors,Model model,BindingResult bindingResult,HttpServletRequest request) {
-	if(!errors.hasErrors()) {
+public String saverequest(@ModelAttribute ExchangeValue exchangevalue,Errors errors,Model model,BindingResult bindingResult,HttpServletRequest request) {	
 		userService.save(exchangevalue);
 		return "redirect:/show-users";
 
-	}else {
-		request.setAttribute("error", "Enter the valid Details");
-		request.setAttribute("mode", "MODE_REGISTER");
-		return "welcome";
-	}
 }
 
 @PostMapping(value="/save-user1")
@@ -187,12 +181,12 @@ public String newregister(HttpServletRequest request) {
 	request.setAttribute("mode", "MODE_NEWREGISTER");
 	return "welcome";
 }
-//@GetMapping(path="/all")
-//public @ResponseBody Iterable<ExchangeValue> getAllUsers() {
+@GetMapping(path="/all")
+public @ResponseBody Iterable<ExchangeValue> getAllUsers() {
  //This returns a JSON or XML with the users
-//return repository.findAll();
+return repository.findAll();
 
-//}
+}
 
 //@RequestMapping(value="/show-users")
 //public String allrequest(HttpServletRequest request) {

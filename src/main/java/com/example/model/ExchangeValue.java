@@ -32,14 +32,12 @@ public class ExchangeValue
 @GeneratedValue(strategy=GenerationType.AUTO)
 private long id;
 @Column(name="name") 
-@NotNull(message="Email is compulsory")
-@Size(min=3,message="should be at least 3 characters")
+
 private String name ;
-@NotNull(message="Email is compulsory")
+
 @Column(name="contactnumber")
 private String contactnumber;
-@Size(min=3,message="should be at least 3 characters")
-@NotNull(message="Email is compulsory")
+
 @Column(name ="airport")
 private String airport;
 @Column(name="currency_from")  
