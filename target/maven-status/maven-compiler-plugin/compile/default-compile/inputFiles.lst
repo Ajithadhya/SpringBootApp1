@@ -1,0 +1,10 @@
+/home/itim/CurrencyExchangeService2/src/main/java/com/example/controller/CurrencyExchangecontroller.java
+/home/itim/CurrencyExchangeService2/src/main/java/com/example/repository/AdminRepository.java
+/home/itim/CurrencyExchangeService2/src/main/java/com/example/model/Admin.java
+/home/itim/CurrencyExchangeService2/src/main/java/com/example/repository/ExchangeValueRepository.java
+/home/itim/CurrencyExchangeService2/src/main/java/com/example/service/ListService.java
+/home/itim/CurrencyExchangeService2/src/main/java/com/example/ServletInitializer.java
+/home/itim/CurrencyExchangeService2/src/main/java/com/example/model/ExchangeValue.java
+/home/itim/CurrencyExchangeService2/src/main/java/com/example/model/User.java
+/home/itim/CurrencyExchangeService2/src/main/java/com/example/repository/UserRepository.java
+/home/itim/CurrencyExchangeService2/src/main/java/com/example/CurrencyExchangeServiceApplication.java
