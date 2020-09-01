@@ -40,8 +40,8 @@
 				<div class="jumbotron text-center">
 					<h1>Foreign Currency Exchange Service</h1>
 					<h3>Start to Exchange your currency With CurrencyExchangeService</h3>
-					<a href="${path}/Start Exchange"><h2>login
-							page</h2></a>
+					<a href="${path}/Start Exchange"><h2>Login
+							Page</h2></a>
 				</div>
 			</div>
 

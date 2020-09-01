@@ -5,6 +5,7 @@ com/example/repository/ExchangeValueRepository.class
 com/example/repository/UserRepository.class
 com/example/model/Admin.class
 com/example/CurrencyExchangeServiceApplication.class
+com/example/SwaggerConfig.class
 com/example/ServletInitializer.class
 com/example/repository/AdminRepository.class
 com/example/service/ListService.class
